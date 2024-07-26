@@ -16,3 +16,27 @@ rangos_imc = [
 
 
 
+resp='S'
+while (resp=='S'):
+    W=float(input('Ingrese el peso de la persona en Kg:'))
+    H=float(input('Ingrese la altura en metros:'))
+    #se asume como peso maximo 300kg y altura maxima 2.5 mt
+    if (W>0 and W<300) and(H>0 and H<2.5) :
+        IMC=(W/(H**2))
+        print(F'EL valor del IMC, en [Kg/m2]: {round(IMC,2)}')
+        #rutna para recuperar la descripcion del IMC calculado
+        for rango in rangos_imc:
+            min_val, max_val, descripcion = rango
+        
+            # Comparar valores
+            #ultimo valor de la tupla
+            if max_val is None and IMC > min_val:
+                print(f"IMC corresponde a {descripcion}")
+                break
+
+            if min_val <= IMC <= max_val:
+                print(f"IMC corresponde a {descripcion}")
+                break
+    else:
+        print("los valores ingresados se encuentran fuera de los intervalos permitodos")
+    resp=str.upper(input("Desea ingresar nuevos datos S/N:"))
