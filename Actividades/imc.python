@@ -1,0 +1,13 @@
+#
+Actividad 1 - IMC
+El IMC, conocido también como el Índice de masa corporal, es una medida que asocia el
+peso de una persona con su talla (su altura). Este valor es utilizado normalmente como un
+indicador nutricional y constituye un índice fácil y sencillo de calcular para determinar el
+estado de obesidad y sobrepeso de una persona. El IMC se calcula de la siguiente manera:
+
+W : corresponde al peso de la persona en Kg.
+H: corresponde a la altura en metros.
+IMC: EL valor del IMC, en [Kg/m2]
+
+#
+
