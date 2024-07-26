@@ -51,7 +51,12 @@ usuario debe escribir una de las opciones validas "piedra", "papel" o "tijera", 
 Sistema Operativo  Windows 10, linux, Mac
 Lenguaje de programación Python 3.12.4
 
-Colaboradores: Francisco Colomer, Francisco Monroy, Natalia Peña, Camila Chavez e Iván Unquén
+## Colaboradores
+- [Francisco Colomer](https://github.com/Cy5k0) 
+- [Francisco Monroy](https://github.com/fmonroy75)
+- [Natalia Peña](https://github.com/StudentNPD)
+- [Iván Unquén](https://github.com/IvanUnquen)
+- Camila Chavez 
 
 ![pythn](./Actividades/img/ssss.jpeg)
 
