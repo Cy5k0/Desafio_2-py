@@ -56,7 +56,7 @@ Lenguaje de programación Python 3.12.4
 - [Francisco Monroy](https://github.com/fmonroy75)
 - [Natalia Peña](https://github.com/StudentNPD)
 - [Iván Unquén](https://github.com/IvanUnquen)
-- [Camila Chavez](https://github.com/Camilachavez630/cami)
+- [Camila Chavez](https://github.com/Camilachavez630)
 
 
 ![pythn](./Actividades/img/ssss.jpeg)
