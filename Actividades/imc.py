@@ -34,8 +34,8 @@ while (resp=='S'):
             if max_val is None and IMC > min_val:
                 print(f"IMC corresponde a {descripcion}")
                 break
-            if min_val != None and max_val!=None:
-                if min_val <= IMC <= max_val:
+            if min_val != None and max_val != None:
+                if min_val < IMC <= max_val:
                     print(f"IMC corresponde a {descripcion}")
                     break
     else:
